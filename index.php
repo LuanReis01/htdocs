@@ -21,7 +21,7 @@ if(!empty($url_parts[2])) {
     $id = $url_parts[2];
 }
 
-/* verificar se o controller pretendido está na nossa whitelist */
+
 if( !in_array($controller, $allowed_controllers) ) {
     http_response_code(404);
     die("Não encontrado");
