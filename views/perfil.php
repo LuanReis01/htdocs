@@ -9,15 +9,16 @@
   <title> Perfil </title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" >
   <!-- Icones -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- fonte personalizada -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="../https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   
   <!-- estilo do nosso tema -->
-  <link rel="stylesheet" href="assets/css/tema-curriculo.css" />
-  <link rel="stylesheet" href="assets/css/form-validation.css" />
+  <link rel="stylesheet" href="../assets/css/tema-curriculo.css" />
+  <link rel="stylesheet" href="../assets/css/form-validation.css" />
+
   
 </head>
 <body>
@@ -33,7 +34,7 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav d-flex justify-content-end" id="links">
-            <li><a href="painel.php">X</a></li>
+            <li><a href="../painel.php">X</a></li>
         </ul>
     </div>
   </div>
@@ -43,7 +44,7 @@
 <div class="container-fluid bg1 text-center" id="quem">
 
   <h3>Quem sou eu? </h3>
-  <img src="images/foto-perfil.jpg" class="img-responsive img-redonda" style="display:inline" alt="Foto" width="200">
+  <img src="../images/foto-perfil.jpg" class="img-responsive img-redonda" style="display:inline" alt="Foto" width="200">
   <form action="" method="POST" enctype="multipart/form-data" class="needs-validation container" novalidate>
     <input type="file" name="foto" id="foto" />
 
@@ -123,7 +124,7 @@
 </div>
 
 <!-- bootstrap.js -->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/form-validation.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/form-validation.js"></script>
 </body>
 </html>

@@ -6,17 +6,17 @@
   <link rel="icon" href="images/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title> Formações </title>
+  <title> Cursos </title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css" >
   <!-- Icones -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <!-- fonte personalizada -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   
   <!-- estilo do nosso tema -->
-  <link rel="stylesheet" href="assets/css/tema-curriculo.css" />
+  <link rel="stylesheet" href="../assets/css/tema-curriculo.css" />
   
 </head>
 <body>
@@ -32,30 +32,31 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="nav navbar-nav d-flex justify-content-end" id="links">
-            <li><a href="painel.php">X</a></li>
+        <li><a href="../cadastrar-curso.php">Cadastrar Curso</a></li>   
+        <li><a href="../painel.php">X</a></li>
         </ul>
     </div>
   </div>
 </nav>
 
 <!-- container fluido 100% -->
-<div class="container-fluid bg2 text-center" id="div-formacoes">
-  <h3> <i class="bi bi-easel"></i> Formação </h3>
+<div class="container-fluid bg2 text-center" id="div-cursos">
+  <h3> <i class="bi bi-book"></i> Cursos </h3>
   <ul class="list-group lista" style="color:#222;">
     <li class="list-group-item">
-      <a href="editar_formacao.php?id=''"><i class="bi bi-pencil-square"></i></a>
-      <a href="apagar_formacao.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal1"><i class="bi bi-trash"></i></a>
-      Nome da formação 1
+      <a href="editar_curso.php?id=''"><i class="bi bi-pencil-square"></i></a>
+      <a href="apagar_curso.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal1"><i class="bi bi-trash"></i></a>
+      Nome do Curso 1
     </li>
     <li class="list-group-item">
-      <a href="editar_formacao.php?id=''"><i class="bi bi-pencil-square"></i></a>
-      <a href="apagar_formacao.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal2"><i class="bi bi-trash"></i></a>
-      Nome da formação 2
+    <a href="editar_curso.php?id=''"><i class="bi bi-pencil-square"></i></a>
+      <a href="apagar_curso.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal1"><i class="bi bi-trash"></i></a>
+      Nome do Curso 2
     </li>
     <li class="list-group-item">
-      <a href="editar_formacao.php?id=''"><i class="bi bi-pencil-square"></i></a>
-      <a href="apagar_formacao.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal3"><i class="bi bi-trash"></i></a>
-      Nome da formação 3
+    <a href="editar_curso.php?id=''"><i class="bi bi-pencil-square"></i></a>
+      <a href="apagar_curso.php?id=''" data-bs-toggle="modal" data-bs-target="#exampleModal1"><i class="bi bi-trash"></i></a>
+      Nome do Curso 3
     </li>
   </ul>
 
@@ -87,6 +88,6 @@
 </div>
 
 <!-- bootstrap.js -->
-<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

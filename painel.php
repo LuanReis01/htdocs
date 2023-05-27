@@ -9,7 +9,7 @@
     <title>Curriculo online</title>
 
 
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/bootstrap.min.css"  rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -155,20 +155,20 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="perfil.php">Perfil</a>
+            <a class="nav-link" href="views/perfil.php">Perfil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="formacoes.php">Formações</a>
+            <a class="nav-link" href="views/formacoes.php">Formações</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cursos</a>
+            <a class="nav-link" href="views/cursos.php">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Currículo</a>
+            <a class="nav-link" href="views/curriculo.php">Currículo</a>
           </li>
 
         </ul>
-         <a href="" class="btn btn-secondary">Sair</a>
+         <a href="../logout.php" class="btn btn-secondary">Sair</a>
       </div>
     </div>
   </nav>
@@ -184,7 +184,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+        <img src="../images/imagem01.jpg" alt="">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Example headline.</h1>
@@ -194,7 +194,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+      <img src="../images/imagem02.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -204,7 +204,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+      <img src="../images/imagem03.jpg" alt="">
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>One more for good measure.</h1>
@@ -237,19 +237,19 @@
         
         <h2 class="fw-normal">Formações</h2>
         <p>Cadastre as suas formações.</p>
-        <p><a class="btn btn-secondary" href="#">Cadastrar Formações &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="views/cadastrar-formacao.php">Cadastrar Formações &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         
         <h2 class="fw-normal">Cursos</h2>
         <p>Cadastre os seus cursos.</p>
-        <p><a class="btn btn-secondary" href="#">Cadastrar Cursos &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="views/cadastrar-curso.php">Cadastrar Cursos &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
        
         <h2 class="fw-normal">Configurações</h2>
         <p>Altere as configurações da sua conta.</p>
-        <p><a class="btn btn-secondary" href="#">Configurar &raquo;</a></p>
+        <p><a class="btn btn-secondary" href="views/configuracoes.php">Configurar &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
