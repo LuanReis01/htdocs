@@ -24,7 +24,8 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+width: 100%;
+text-shadow: 0px 0px 2px #000;
 }
 
 

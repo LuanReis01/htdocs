@@ -26,5 +26,5 @@ if( !in_array($controller, $allowed_controllers) ) {
     http_response_code(404);
     die("Não encontrado");
 }
-
 require("controllers/" . $controller . ".php");
+
